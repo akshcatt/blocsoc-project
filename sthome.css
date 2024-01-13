@@ -1,0 +1,89 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+}
+
+.main{
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile{
+    padding: 3vh;
+    width: 70vh;
+    height: 120vh;
+    background-color: rgb(2, 20, 32);
+    font-family:monospace;
+    color: rgb(255, 207, 144);
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img{
+    position: relative;
+    left: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25vh;
+}
+.profile-msg{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile-msg textarea{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3vh white;
+    margin: 3vh;
+    padding: 6vh;
+    border-radius: 1vh;
+}
+.profile-msg button{
+    width: 20vh;
+    height: 4vh;
+    border-radius: 2.5vh;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.content{
+    padding: 3vh;
+    height: 120vh;
+    background-color: bisque;
+    text-decoration: none;
+}
+.proflist{
+    list-style: none;
+    display: flex;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    gap: 12vh;
+    flex-direction: row;
+
+}
+.p-all{
+    border-radius: 1vh;
+    padding: 2vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    margin-bottom: 5vh;
+    background-color: #98dfaf ;
+}
+
+.content img{
+    width: 25vh;
+}
+
+.p-all li a{
+    text-decoration: none;
+    color: orangered;
+    font-family: fantasy;
+    font-weight: bold;
+
+}

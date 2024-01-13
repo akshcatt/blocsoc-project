@@ -1,0 +1,55 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+}
+body{
+    background-color: #dbd7d1;
+}
+.main{
+    height: 94vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile{
+    padding: 3vh;
+    width: 30vh;
+    height: 94vh;
+    display: flex;
+    background-color: #28536B;
+    color: #F6F0ED;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile select, button{
+    font-size: large;
+    width: 20vh;
+    padding: 2vh;
+    border: none;
+    border-radius: 1vh;
+    background-color: #BBB193;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.profile img{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: white 2px;
+    width: 25vh;
+}
+.event {
+    margin: 20px;
+    background-color: #A1CCA5;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 1vh;
+}
+
