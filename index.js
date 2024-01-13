@@ -90,7 +90,7 @@ async function writeToContract() {
 
     // Wait for the transaction to be mined
     await transaction.wait();
-
+    await alert("Review Submitted!!);
     console.log('Transaction successful!');
   } catch (error) {
     console.error('Error writing to contract:', error);
