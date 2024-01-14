@@ -89,6 +89,7 @@ async function writeToContract() {
     const transaction = await contract.connect(signer).addReview(profid, review.value);
 
     // Wait for the transaction to be mined
+    alert('Please wait!!');
     await transaction.wait();
    alert("Review Submitted!!");
     console.log('Transaction successful!');
