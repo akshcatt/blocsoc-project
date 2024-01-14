@@ -18,6 +18,8 @@ const signer = provider.getSigner();
 const contract = new ethers.Contract(contractAddress, contractAbi, signer);
 
 btn.addEventListener("click",async ()=>{
+        let obj = document.querySelector(".obj")
+    obj.innerHTML = "";
     //connecting to metamask
     console.log(window.ethereum.request({ method: "eth_requestAccounts" }));
     console.log(prof.value);
@@ -36,7 +38,6 @@ btn.addEventListener("click",async ()=>{
         div.innerText = data[element][0];
         div.classList.add("event");
         //accessing the container for the reviews
-        let obj = document.querySelector(".obj")
         obj.appendChild(div);
         };
     })
